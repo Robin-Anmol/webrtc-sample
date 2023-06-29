@@ -1,14 +1,14 @@
-export type handleUserJoined = {
+export type handleUserJoinedProps = {
   email: string;
   id: string;
   roomCounts: number;
 };
 
-export type handleIncommingCall = {
+export type handleIncommingCallProps = {
   from: string;
   offer: RTCSessionDescriptionInit;
 };
-export type handleCallAccepted = {
+export type handleCallAcceptedProps = {
   from: string;
   answer: RTCSessionDescriptionInit;
 };
